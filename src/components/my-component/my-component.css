@@ -1,0 +1,40 @@
+:host {
+  display: block;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-black {
+  background: black;
+}
+
+.bg-white {
+  background: white;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.btn-primary {
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 10px;
+}

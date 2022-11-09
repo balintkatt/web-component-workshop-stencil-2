@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/web-components.esm.js"></script>
+    <script nomodule src="/build/web-components.js"></script>
+        <script>
+      window.onload = function myFunction() {
+        let rating = document.getElementById("myButtonComponent");
+        rating.addEventListener("btnClicked", function (event) {
+          alert(event.detail.value);
+        })
+      };
+    </script>
+  </head>
+  <body>
+    <my-button-component id="myButtonComponent" icon="&#x261D;" text="Add to cart" bg-color="red" text-color="black"></my-component>
+  </body>
+</html>
